@@ -18,6 +18,16 @@ function About() {
           ))}
         </div>
 
+        <h2 className="h5 mb-2">Experience</h2>
+        <ul className="list-unstyled">
+          {profile.experience.map((entry) => (
+            <li key={entry.company + entry.role} className="mb-2">
+              <strong>{entry.role}</strong> — {entry.company}
+              <div className="text-muted small">{entry.period}</div>
+            </li>
+          ))}
+        </ul>
+
         <h2 className="h5 mb-2">Education</h2>
         <ul className="list-unstyled">
           {profile.education.map((entry) => (

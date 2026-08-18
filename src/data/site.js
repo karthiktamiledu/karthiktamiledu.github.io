@@ -4,7 +4,7 @@ export const profile = {
   pitch:
     'Software engineer with a Master\'s in Computer Science from Santa Clara University, working across full-stack systems and applied machine learning.',
   bio: [
-    'I earned my B.S. and M.S. in Computer Science and Engineering at Santa Clara University. I worked as a Software Development Intern at Availent Systems building data pipelines and internal tooling on NetSuite, and previously as a Frontend Intern at StrongKey modernizing a secure file transfer system for global banks.',
+    'I earned my B.S. and M.S. in Computer Science and Engineering at Santa Clara University, with 2.5 years of software engineering internship experience. I worked as a Software Development Intern at Availent Systems building data pipelines and internal tooling on NetSuite, and previously as a Frontend Intern at StrongKey modernizing a secure file transfer system.',
     'My academic work spans NLP, deep learning, and human-computer interaction, including fairness interventions in automated essay scoring and time-series forecasting with diffusion models. I\'m currently looking for full-time software engineering roles where I can keep working across full-stack systems and applied ML.',
   ],
   skills: [
@@ -12,6 +12,18 @@ export const profile = {
     'Node.js', 'PyTorch', 'JavaServer Faces', 'Flutter', 'Maven',
     'Docker', 'MongoDB', 'Android SDK', 'Matterport', 'Git', 'Linux', 'CI/CD',
     'NetSuite', 'SuiteScript',
+  ],
+  experience: [
+    {
+      company: 'Availent Systems',
+      role: 'Software Development Intern',
+      period: 'Jul 2024 - Jul 2026',
+    },
+    {
+      company: 'StrongKey',
+      role: 'Frontend Intern',
+      period: 'Jun 2023 - Sep 2023, Jun 2022 - Sep 2022',
+    },
   ],
   education: [
     {
